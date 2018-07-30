@@ -12,6 +12,11 @@
 		189EF1BB208D645C002A7C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189EF1B9208D645C002A7C30 /* Main.storyboard */; };
 		189EF1BD208D645C002A7C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EF1BC208D645C002A7C30 /* Assets.xcassets */; };
 		189EF1C0208D645C002A7C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189EF1BE208D645C002A7C30 /* LaunchScreen.storyboard */; };
+		189EF1CA208D6BD2002A7C30 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF1C9208D6BD2002A7C30 /* FilterModel.swift */; };
+		189EF1CC208D6FC2002A7C30 /* FilterValueTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF1CB208D6FC2002A7C30 /* FilterValueTable.swift */; };
+		189EF1CE208D6FD3002A7C30 /* FilterOptionsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF1CD208D6FD3002A7C30 /* FilterOptionsTable.swift */; };
+		189EF1D0208D6FE4002A7C30 /* FilterValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF1CF208D6FE4002A7C30 /* FilterValueCell.swift */; };
+		189EF1D2208D6FF5002A7C30 /* FilterOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EF1D1208D6FF5002A7C30 /* FilterOptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		189EF1BC208D645C002A7C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189EF1BF208D645C002A7C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189EF1C1208D645C002A7C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189EF1C9208D6BD2002A7C30 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		189EF1CB208D6FC2002A7C30 /* FilterValueTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValueTable.swift; sourceTree = "<group>"; };
+		189EF1CD208D6FD3002A7C30 /* FilterOptionsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionsTable.swift; sourceTree = "<group>"; };
+		189EF1CF208D6FE4002A7C30 /* FilterValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValueCell.swift; sourceTree = "<group>"; };
+		189EF1D1208D6FF5002A7C30 /* FilterOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				189EF1BC208D645C002A7C30 /* Assets.xcassets */,
 				189EF1BE208D645C002A7C30 /* LaunchScreen.storyboard */,
 				189EF1C1208D645C002A7C30 /* Info.plist */,
+				189EF1C9208D6BD2002A7C30 /* FilterModel.swift */,
+				189EF1CB208D6FC2002A7C30 /* FilterValueTable.swift */,
+				189EF1CD208D6FD3002A7C30 /* FilterOptionsTable.swift */,
+				189EF1CF208D6FE4002A7C30 /* FilterValueCell.swift */,
+				189EF1D1208D6FF5002A7C30 /* FilterOptionCell.swift */,
 			);
 			path = "Filter App";
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189EF1CC208D6FC2002A7C30 /* FilterValueTable.swift in Sources */,
+				189EF1CA208D6BD2002A7C30 /* FilterModel.swift in Sources */,
+				189EF1CE208D6FD3002A7C30 /* FilterOptionsTable.swift in Sources */,
 				189EF1B8208D645C002A7C30 /* ViewController.swift in Sources */,
 				189EF1B6208D645C002A7C30 /* AppDelegate.swift in Sources */,
+				189EF1D2208D6FF5002A7C30 /* FilterOptionCell.swift in Sources */,
+				189EF1D0208D6FE4002A7C30 /* FilterValueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
